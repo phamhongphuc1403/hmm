@@ -15,8 +15,8 @@ class HMMRecognition:
         self.class_names = ['cothe', 'khong', 'nhung']
         self.audio_format = 'wav'
 
-        self.record_path = 'temp/record.wav'
-        self.trimmed_path = 'temp/trimmed.wav'
+        self.record_path = './temp/record.wav'
+        self.trimmed_path = 'temp'
         self.model_path = 'models_train'
 
         self.load_model()
@@ -38,8 +38,11 @@ class HMMRecognition:
                 self.model[key] = pickle.load(file)
 
     def predict(self, file_name=None):
+        print('filename', file_name)
         if not file_name:
             file_name = self.record_path
+
+        print('filename', file_name)
 
         # Trim silence
         sound = AudioSegment.from_file(file_name, format=self.audio_format)
@@ -51,7 +54,6 @@ class HMMRecognition:
 
         trimmed_sound = sound[start_trim:duration - end_trim]
         trimmed_sound.export(self.trimmed_path, format=self.audio_format)
-
         # Predict
         record_mfcc = preprocessing.get_mfcc(self.trimmed_path)
         scores = [self.model[cname].score(record_mfcc) for cname in self.class_names]
@@ -97,9 +99,9 @@ class HMMRecognition:
 if __name__ == '__main__':
     hmm_reg = HMMRecognition()
     hmm_reg.predict(file_name='datasets/cothe/cothe (1).wav')
-    hmm_reg.predict(file_name='datasets/khong/2.wav')
-    hmm_reg.predict(file_name='datasets/nhung/nhung_ (1).wav')
-    hmm_reg.record()
-    hmm_reg.predict()
+    # hmm_reg.predict(file_name='datasets/khong/2.wav')
+    # hmm_reg.predict(file_name='datasets/nhung/nhung_ (1).wav')
+    # hmm_reg.record()
+    # hmm_reg.predict()
 
 

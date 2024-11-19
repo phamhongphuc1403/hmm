@@ -5,14 +5,14 @@ import hmmlearn.hmm as hmm
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
-
+from hmmlearn.hmm import GMMHMM
 import preprocessing
 
 
 class HMMTraining:
     def __init__(self):
         self.class_names = ['cothe', 'khong', 'nhung']
-        self.states = [9, 9, 9]
+        self.states = [2, 3, 3]
         self.dataset_path = 'datasets'
 
         self.X = {'train': {}, 'test': {}}
@@ -71,8 +71,9 @@ class HMMTraining:
             print(cname)
             print(trans_matrix)
 
-            self.model[cname] = hmm.GaussianHMM(
-                n_components=self.states[idx],
+            self.model[cname] = GMMHMM(
+                n_components=self.states[idx],     # Number of hidden states
+                n_mix=3,                          # Number of mixture components per state
                 verbose=True,
                 n_iter=300,
                 startprob_prior=start_prob,
@@ -83,6 +84,8 @@ class HMMTraining:
             )
             self.model[cname].fit(X=np.vstack(self.X['train'][cname]),
                                   lengths=[x.shape[0] for x in self.X['train'][cname]])
+            
+            print(f"Training history for model '{cname}': {self.model[cname].monitor_.history}")
 
     def save_model(self):
         for cname in self.class_names:
