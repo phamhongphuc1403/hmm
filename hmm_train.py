@@ -72,8 +72,8 @@ class HMMTraining:
             print(trans_matrix)
 
             self.model[cname] = GMMHMM(
-                n_components=self.states[idx],     # Number of hidden states
-                n_mix=3,                          # Number of mixture components per state
+                n_components=self.states[idx],    
+                n_mix=3,                         
                 verbose=True,
                 n_iter=300,
                 startprob_prior=start_prob,
@@ -98,11 +98,14 @@ class HMMTraining:
         y_true = []
         y_pred = []
         for cname in self.class_names:
+            print(self.y['test'][cname])
+            raise Exception()
             for mfcc, target in zip(self.X['test'][cname], self.y['test'][cname]):
                 scores = [self.model[cname].score(mfcc) for cname in self.class_names]
                 pred = np.argmax(scores)
                 y_pred.append(pred)
                 y_true.append(target)
+                print(scores, pred, y_true,y_pred, (np.array(y_true) == np.array(y_pred)).sum() , len(y_true))
             print(f'{cname}:', (np.array(y_true) == np.array(y_pred)).sum() / len(y_true))
         print('======')
         print('Confusion matrix:')
