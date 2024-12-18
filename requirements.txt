@@ -1,0 +1,5 @@
+hmmlearn==0.3.2
+numpy==1.26.4
+scikit-learn==1.4.1.post1
+librosa==0.10.2.post1
+PyAudio==0.2.14
