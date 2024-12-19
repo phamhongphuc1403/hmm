@@ -2,310 +2,310 @@
   name: 'chủ'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '02':
   name: 'về'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '03':
   name: 'vào'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '04':
   name: 'tải'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '05':
   name: 'đầu'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '06':
   name: 'cuối'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '07':
   name: 'kế'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '08':
   name: 'trước'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '09':
   name: 'dừng'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '10':
   name: 'ngưng'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '11':
   name: 'đọc'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '13':
   name: 'tiếp'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '12':
   name: 'lui'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '14':
   name: 'tới'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '15':
   name: 'tăng'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '16':
   name: 'to'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '17':
   name: 'giảm'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '18':
   name: 'nhỏ'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '19':
   name: 'lại'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '20':
   name: 'lặp'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '21':
   name: 'nhanh'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '22':
   name: 'chậm'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '23':
   name: 'lưu'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '24':
   name: 'xoá'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '25':
   name: 'huỷ'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '26':
   name: 'chạy'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '27':
   name: 'xong'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '28':
   name: 'đúng'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '29':
   name: 'sai'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '30':
   name: 'giúp'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '31':
   name: 'giờ'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '32':
   name: 'ngày'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '33':
   name: 'tươi'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '34':
   name: 'có'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '35':
   name: 'không'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '36':
   name: 'mục'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '37':
   name: 'bài'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '38':
   name: 'một'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '39':
   name: 'hai'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '40':
   name: 'ba'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '41':
   name: 'bốn'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '42':
   name: 'năm'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '43':
   name: 'sáu'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '44':
   name: 'bảy'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '45':
   name: 'tám'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '46':
   name: 'chín'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '47':
   name: 'a'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '48':
   name: 'e'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '49':
   name: 'i'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '50':
   name: 'o'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '51':
   name: 'u'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
 
 '52':
   name: 'thổ địa'
   n_state: [4, 5, 6, 7]
   n_mix: [2, 3, 4, 5]
-  n_mfcc: [13]
+  n_mfcc: 13
